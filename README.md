@@ -76,6 +76,8 @@ This is useful evidence because it shows disciplined testing and willingness to 
 
 Future work should include EFJohnson 5100/5300 testing to compare another major P25 vendor family against the Motorola and Harris findings.
 
+<img src="assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="Handheld radio stack for future EFJohnson comparison work" width="48%">
+
 ## What This Demonstrates
 
 - P25 CAI standards research.
