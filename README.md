@@ -56,6 +56,16 @@ The strongest current evidence supports Motorola Astro-series P25 experimentatio
 
 This supports a resume claim around practical protocol research, Linux/networking configuration, and tactical-radio experimentation.
 
+Representative evidence:
+
+- Source: https://www.instagram.com/p/CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40/
+
+<img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-10-01" width="48%">
+
+- Source: https://www.instagram.com/p/CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0/
+
+<img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-09-30" width="48%">
+
 ### Reticulum Proof Of Concept
 
 Reticulum was used because it is transport-layer agnostic and decentralized: it can operate above whatever link can move packets, rather than requiring a normal LAN-like environment. In this project, Reticulum was tested as a basic messaging proof of concept over an already established IP-over-P25 link.
