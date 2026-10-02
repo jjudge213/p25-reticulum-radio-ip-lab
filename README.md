@@ -64,6 +64,8 @@ Reticulum was used because it is transport-layer agnostic and decentralized: it 
 
 That distinction matters. The claim is not that Reticulum directly implements P25 CAI or that a production Reticulum-over-P25 network is complete. The claim is that once an IP path over P25 existed, Reticulum provided a useful application-layer test of decentralized messaging behavior over that constrained transport.
 
+<img src="assets/p25-ip-reticulum-2025-03-28-01.gif" alt="Reticulum messaging proof of concept over an established IP-over-P25 link" width="48%">
+
 ### Harris XG-100M Comparison
 
 Harris XG-100M testing produced an important constraint: the IP networking path appears to require trunked-system implementation rather than a simple direct radio-to-radio terminal network.
