@@ -8,6 +8,10 @@ This repository documents an investigation into the APCO P25 Common Air Interfac
 
 The current focus is Motorola Astro-series P25 behavior. Harris XG-100M testing is included as a comparison point, and EFJohnson 5100/5300 testing is planned future work.
 
+The project was motivated by the rise of MANET-style tactical radio equipment and the expanding use of the TAK ecosystem in DoD/DoW fielding. The underlying question was:
+
+> What radio systems are available to civilians that support encrypted digital modulation and IP networking well enough to act as a transport layer for TAK-style field operations?
+
 The portfolio goal is to show practical tactical-radio research: reading standards, comparing vendor behavior, testing radio-to-terminal workflows, and documenting where constrained IP networking is realistic versus where the radio system architecture imposes hard limits.
 
 ## Current Findings
@@ -22,13 +26,16 @@ The portfolio goal is to show practical tactical-radio research: reading standar
 
 ## Problem
 
-P25 radios are often discussed as if "digital" automatically means IP networking is straightforward. In practice, the useful question is narrower:
+MANET products show what modern field networking can look like when radios, encryption, routing, and tactical software are designed as one system. Civilian-accessible equipment is more fragmented. P25 radios are available on the secondary market and support encrypted digital voice in lawful configurations, but that does not automatically mean they are practical IP transports.
+
+In practice, the useful question is narrower:
 
 - What does the P25 CAI standard actually support?
 - Which capabilities are implemented differently by vendor and product line?
 - When can two radios support data/IP behavior directly?
 - When does IP networking depend on trunked infrastructure or system-side services?
 - What terminal-side routing, addressing, and interface configuration are required?
+- Can any civilian-accessible radio path become a realistic transport layer for TAK-style field workflows?
 
 This repo captures that investigation without presenting it as a finished operational network.
 
@@ -77,6 +84,7 @@ This repository does not claim:
 - trunked-system administration access
 - published operational frequencies, talkgroups, radio IDs, codeplugs, or encryption material
 - a complete Reticulum-over-P25 field network
+- a completed TAK-over-P25 transport layer
 - universal P25 vendor behavior
 
 The claim is narrower: this is a documented research and test effort around P25 CAI implementation differences and constrained radio-linked IP workflows.
