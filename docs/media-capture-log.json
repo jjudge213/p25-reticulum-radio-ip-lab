@@ -1,65 +1,88 @@
-[
-  {
-    "filename": "p25-ip-reticulum-2025-03-28-01.gif",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2025-03-28",
-    "kind": "animated_gif",
-    "bytes": 5422100,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2022-09-28",
-    "kind": "animated_gif",
-    "bytes": 19724394,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2022-09-30",
-    "kind": "animated_gif",
-    "bytes": 6923391,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2022-10-01",
-    "kind": "animated_gif",
-    "bytes": 12080186,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "xts5000-active-display-2021-04-24-01.jpg",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2021-04-24",
-    "kind": "jpg_still",
-    "bytes": 111960,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "xts5000-hardware-2021-03-23-01.jpg",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2021-03-23",
-    "kind": "jpg_still",
-    "bytes": 87544,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  },
-  {
-    "filename": "stack-of-handheld-radios-transceivers-2024-07-15-01.jpg",
-    "source_repo": "tactical-radio-systems-lab",
-    "topic": "P25 / Reticulum / Radio IP",
-    "date": "2024-07-15",
-    "kind": "jpg_still",
-    "bytes": 312371,
-    "note": "Core evidence for radio-to-computer workflow and P25/IP experimentation."
-  }
-]
+{
+  "rebuilt_at": "2026-10-02T11:18:43.678796+00:00",
+  "source": "portfolio/instagram-full-profile-sweep-20261001/blocked-unblocked-posts.csv",
+  "repo": "p25-reticulum-radio-ip-lab",
+  "media": [
+    {
+      "file": "assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif",
+      "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif",
+      "instagram_url": "https://www.instagram.com/p/CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40/",
+      "shortcode": "CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40",
+      "media_index": 1,
+      "kind": "video_gif",
+      "source_archive_path": "gifs/2022-10-01_CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40/CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40-01-video.gif",
+      "bytes": 16022685,
+      "sha256": "f6c0423d9a265773a5adcbaa85991983521ddef2dcdeb611aa806f3b2b2999a3",
+      "frames": 96
+    },
+    {
+      "file": "assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif",
+      "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif",
+      "instagram_url": "https://www.instagram.com/p/CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0/",
+      "shortcode": "CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0",
+      "media_index": 1,
+      "kind": "video_gif",
+      "source_archive_path": "gifs/2022-09-30_CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0/CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0-01-video.gif",
+      "bytes": 10150566,
+      "sha256": "5bab7084b2473360bbf431c94a41005cb45a1e53618e16d4affc2daa667d5734",
+      "frames": 96
+    },
+    {
+      "file": "assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif",
+      "filename": "p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif",
+      "instagram_url": "https://www.instagram.com/p/CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80/",
+      "shortcode": "CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80",
+      "media_index": 1,
+      "kind": "video_gif",
+      "source_archive_path": "gifs/2022-09-28_CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80/CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80-01-video.gif",
+      "bytes": 8968744,
+      "sha256": "655f0ac060de28f0308dd53446781d3ce967b17505bd88aed9d8c2b36c101395",
+      "frames": 60
+    },
+    {
+      "file": "assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg",
+      "filename": "stack-of-handheld-radios-transceivers-2024-07-15-01.jpg",
+      "instagram_url": "https://www.instagram.com/p/C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0/",
+      "shortcode": "C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0",
+      "media_index": 1,
+      "kind": "image_jpg",
+      "source_archive_path": "media/2024-07-15_C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0/C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0-01-image.jpg",
+      "bytes": 376407,
+      "sha256": "d258e3a576ccbb20deeb6935bd165541c7f7edf98f393a90d37e87f58a4d28c2"
+    },
+    {
+      "file": "assets/p25-ip-reticulum-2025-03-28-01.gif",
+      "filename": "p25-ip-reticulum-2025-03-28-01.gif",
+      "instagram_url": "https://www.instagram.com/p/DHuXQ0-R_TtSDEQ7jPAZlAc4hUSBY6D-Cc-oMU0/",
+      "shortcode": "DHuXQ0-R_TtSDEQ7jPAZlAc4hUSBY6D-Cc-oMU0",
+      "media_index": 1,
+      "kind": "video_gif",
+      "source_archive_path": "gifs/2025-03-28_DHuXQ0-R_TtSDEQ7jPAZlAc4hUSBY6D-Cc-oMU0/DHuXQ0-R_TtSDEQ7jPAZlAc4hUSBY6D-Cc-oMU0-01-video.gif",
+      "bytes": 18507434,
+      "sha256": "c9f9317bbb0d67116883ff15f4dae0361b80023f06c89538922ab99a5ebdc094",
+      "frames": 96
+    },
+    {
+      "file": "assets/xts5000-active-display-2021-04-24-01.jpg",
+      "filename": "xts5000-active-display-2021-04-24-01.jpg",
+      "instagram_url": "https://www.instagram.com/p/COD15HorEivk01dIuMxuiv3vZ2xiUt_UQ3bfrI0/",
+      "shortcode": "COD15HorEivk01dIuMxuiv3vZ2xiUt_UQ3bfrI0",
+      "media_index": 1,
+      "kind": "image_jpg",
+      "source_archive_path": "media/2021-04-24_COD15HorEivk01dIuMxuiv3vZ2xiUt_UQ3bfrI0/COD15HorEivk01dIuMxuiv3vZ2xiUt_UQ3bfrI0-01-image.jpg",
+      "bytes": 154209,
+      "sha256": "9fee86ce04801661f2f1d42e99472d54cd3467919e753631f4c2ab9c35b23fcd"
+    },
+    {
+      "file": "assets/xts5000-hardware-2021-03-23-01.jpg",
+      "filename": "xts5000-hardware-2021-03-23-01.jpg",
+      "instagram_url": "https://www.instagram.com/p/CMxk9RUrAE64zAY_TDAC5ZGXF93W5-5hoU0T_w0/",
+      "shortcode": "CMxk9RUrAE64zAY_TDAC5ZGXF93W5-5hoU0T_w0",
+      "media_index": 1,
+      "kind": "image_jpg",
+      "source_archive_path": "media/2021-03-23_CMxk9RUrAE64zAY_TDAC5ZGXF93W5-5hoU0T_w0/CMxk9RUrAE64zAY_TDAC5ZGXF93W5-5hoU0T_w0-01-image.jpg",
+      "bytes": 119329,
+      "sha256": "c3a59bfced22a205bc7c2600ff0582010ea7c6acae24b5bef94d1c7113bf690f"
+    }
+  ]
+}

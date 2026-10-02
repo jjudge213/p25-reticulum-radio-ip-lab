@@ -1,11 +1,21 @@
-# Evidence Manifest: P25 Reticulum Radio IP Lab
+# Evidence Manifest
 
-| Date | Topic | Asset | Evidence note |
+Repo: `p25-reticulum-radio-ip-lab`
+
+This manifest was rebuilt from `blocked-unblocked-posts.csv` using only rows marked `unblocked_active` for this repository.
+
+## Active Evidence
+
+| Date | Evidence | Instagram URL | Assets |
 |---|---|---|---|
-| 2025-03-28 | P25 / Reticulum / Radio IP | `p25-ip-reticulum-2025-03-28-01.gif` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2022-09-28 | P25 / Reticulum / Radio IP | `p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2022-09-30 | P25 / Reticulum / Radio IP | `p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2022-10-01 | P25 / Reticulum / Radio IP | `p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2021-04-24 | P25 / Reticulum / Radio IP | `xts5000-active-display-2021-04-24-01.jpg` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2021-03-23 | P25 / Reticulum / Radio IP | `xts5000-hardware-2021-03-23-01.jpg` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
-| 2024-07-15 | P25 / Reticulum / Radio IP | `stack-of-handheld-radios-transceivers-2024-07-15-01.jpg` | Core evidence for radio-to-computer workflow and P25/IP experimentation. |
+|  | P25 Radio Laptop Terminal Evidence Missed By Caption | https://www.instagram.com/p/CjJsYT0jVB5IxzQSpVl7jvjsNyL5eP1poPWTp40/ | p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif |
+|  | P25 Radio Laptop Terminal Evidence Missed By Caption | https://www.instagram.com/p/CjHmIVEj8k8pzLazGRw1xb9GYOW-VUecDM5uwI0/ | p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif |
+|  | P25 Radio Laptop Terminal Evidence Missed By Caption | https://www.instagram.com/p/CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80/ | p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif |
+|  | Stack Of Handheld Radios Transceivers | https://www.instagram.com/p/C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0/ | stack-of-handheld-radios-transceivers-2024-07-15-01.jpg |
+| 2025-03-28 | P25 Ip Reticulum | https://www.instagram.com/p/DHuXQ0-R_TtSDEQ7jPAZlAc4hUSBY6D-Cc-oMU0/ | p25-ip-reticulum-2025-03-28-01.gif |
+| 2021-04-24 | Xts5000 Active Display | https://www.instagram.com/p/COD15HorEivk01dIuMxuiv3vZ2xiUt_UQ3bfrI0/ | xts5000-active-display-2021-04-24-01.jpg |
+| 2021-03-23 | Xts5000 Hardware | https://www.instagram.com/p/CMxk9RUrAE64zAY_TDAC5ZGXF93W5-5hoU0T_w0/ | xts5000-hardware-2021-03-23-01.jpg |
+
+## Exclusion Rule
+
+Blocked, removed, quarantined, or user-rejected posts are intentionally absent from this repo even if they exist in the local Instagram source archive.
