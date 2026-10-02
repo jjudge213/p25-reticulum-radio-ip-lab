@@ -22,7 +22,7 @@ The portfolio goal is to show practical tactical-radio research: reading standar
 | Motorola Astro testing | IP networking between radios appears possible with manual routing configuration on connected terminals | Shows hands-on radio-to-computer networking investigation |
 | Harris XG-100M testing | IP networking path appears to require trunked-system implementation | Shows vendor comparison and honest negative/constraint finding |
 | EFJohnson 5100/5300 | Planned future comparison target | Shows a structured multi-vendor test plan |
-| Reticulum/IP-over-radio concept | Evaluated as a constrained-networking overlay candidate | Shows thinking beyond normal LAN assumptions |
+| Reticulum over IP-over-P25 | Used as a basic proof-of-concept over an established IP-over-P25 link | Shows transport-layer-agnostic messaging over constrained radio-linked IP |
 
 ## Problem
 
@@ -45,7 +45,7 @@ This repo captures that investigation without presenting it as a finished operat
 2. Compare brand behavior rather than assuming all P25 radios expose the same data features.
 3. Test Motorola Astro-series workflows first because current evidence supports radio-to-laptop terminal work.
 4. Use Harris XG-100M testing as a comparison point for trunked-system dependency.
-5. Treat Reticulum as a candidate overlay for constrained or manually routed radio-linked terminals, not as proof of a production P25 mesh.
+5. Use Reticulum as a transport-layer-agnostic, decentralized messaging proof of concept over an established IP-over-P25 link.
 6. Preserve screenshots and short evidence clips for private review, then redact before any public release.
 
 ## Evidence Structure
@@ -55,6 +55,12 @@ This repo captures that investigation without presenting it as a finished operat
 The strongest current evidence supports Motorola Astro-series P25 experimentation with connected terminals. Current testing indicates that IP networking between radios is possible when connected computers are configured with manual routing.
 
 This supports a resume claim around practical protocol research, Linux/networking configuration, and tactical-radio experimentation.
+
+### Reticulum Proof Of Concept
+
+Reticulum was used because it is transport-layer agnostic and decentralized: it can operate above whatever link can move packets, rather than requiring a normal LAN-like environment. In this project, Reticulum was tested as a basic messaging proof of concept over an already established IP-over-P25 link.
+
+That distinction matters. The claim is not that Reticulum directly implements P25 CAI or that a production Reticulum-over-P25 network is complete. The claim is that once an IP path over P25 existed, Reticulum provided a useful application-layer test of decentralized messaging behavior over that constrained transport.
 
 ### Harris XG-100M Comparison
 
@@ -72,6 +78,7 @@ Future work should include EFJohnson 5100/5300 testing to compare another major 
 - Multi-vendor radio behavior comparison.
 - Motorola Astro-series P25 familiarity.
 - Harris XG-100M constraint testing.
+- Reticulum proof-of-concept testing over an established IP-over-P25 link.
 - Linux terminal networking and manual routing awareness.
 - Constrained-networking judgment: bandwidth, routing, infrastructure dependency, and operational limits.
 - Evidence discipline for sensitive communications topics.
@@ -84,6 +91,7 @@ This repository does not claim:
 - trunked-system administration access
 - published operational frequencies, talkgroups, radio IDs, codeplugs, or encryption material
 - a complete Reticulum-over-P25 field network
+- Reticulum as a native P25 CAI implementation
 - a completed TAK-over-P25 transport layer
 - universal P25 vendor behavior
 
