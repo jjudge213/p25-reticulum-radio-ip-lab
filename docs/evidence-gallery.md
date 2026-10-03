@@ -29,14 +29,10 @@ Media rule: still evidence is stored as JPG; verified video evidence is stored a
 
 <img src="../assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="motorola astro selected video evidence 2024 09 16" width="48%"> <img src="../assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="motorola astro mobile radio front panel workflow 2024 09 24" width="48%">
 
-## P25 Mobile Radio And Go-Kit Selected Photos
+## P25 Mobile Radio Selected Photos
 
 - Source: local Telegram ChatExport photo review, selected by Josh for repo incorporation.
 - Redaction note: private review only until radio display, label, and surrounding detail checks are complete.
-
-<img src="../assets/p25-radio-go-kit-2025-04-28-01.jpg" alt="p25 radio go kit 2025 04 28 01" width="48%"> <img src="../assets/p25-radio-go-kit-2025-04-28-02.jpg" alt="p25 radio go kit 2025 04 28 02" width="48%">
-
-<img src="../assets/p25-radio-go-kit-2025-04-28-03.jpg" alt="p25 radio go kit 2025 04 28 03" width="48%"> <img src="../assets/p25-radio-go-kit-2025-04-28-04.jpg" alt="p25 radio go kit 2025 04 28 04" width="48%">
 
 <img src="../assets/p25-mobile-radio-stubby-antenna-2024-09-19-01.jpg" alt="p25 mobile radio stubby antenna 2024 09 19" width="48%"> <img src="../assets/p25-mobile-radio-bench-context-2024-10-27-01.jpg" alt="p25 mobile radio bench context 2024 10 27" width="48%">
 

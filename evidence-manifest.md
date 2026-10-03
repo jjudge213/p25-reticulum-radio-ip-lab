@@ -13,7 +13,6 @@ This manifest combines the rebuilt `unblocked_active` Instagram evidence list wi
 |  | P25 Radio Laptop Terminal Evidence Missed By Caption | https://www.instagram.com/p/CjEW2ORD4zmuQGW5wsn53L6sZ8OV4UibKVjUl80/ | p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif |
 | 2024-09-16 | Motorola Astro Selected Video Evidence | Telegram ChatExport video_156 | p25-motorola-aes-test-digital-radio-2024-09-16-01.gif |
 | 2024-09-24 | Motorola Astro Mobile Radio Front-Panel Workflow | Telegram ChatExport video_157 | p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif |
-| 2025-04-28 | P25 Radio Go-Kit Selected Photos | Telegram ChatExport photo_1014-photo_1017 | p25-radio-go-kit-2025-04-28-01.jpg<br>p25-radio-go-kit-2025-04-28-02.jpg<br>p25-radio-go-kit-2025-04-28-03.jpg<br>p25-radio-go-kit-2025-04-28-04.jpg |
 | 2024-09-19 | P25 Mobile Radio Stubby Antenna Context | Telegram ChatExport photo_725 | p25-mobile-radio-stubby-antenna-2024-09-19-01.jpg |
 | 2024-10-27 | P25 Mobile Radio Bench Context | Telegram ChatExport photo_839 | p25-mobile-radio-bench-context-2024-10-27-01.jpg |
 |  | Stack Of Handheld Radios Transceivers | https://www.instagram.com/p/C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0/ | stack-of-handheld-radios-transceivers-2024-07-15-01.jpg |

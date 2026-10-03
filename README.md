@@ -62,12 +62,6 @@ The selected video evidence below adds radio-front-panel workflow context from t
 
 <img src="assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration evidence, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow evidence, 2024-09-24" width="48%">
 
-Selected still evidence below adds mobile-radio bench and go-kit context around the same P25 experimentation thread.
-
-<img src="assets/p25-radio-go-kit-2025-04-28-01.jpg" alt="P25 radio go-kit context, 2025-04-28" width="48%"> <img src="assets/p25-radio-go-kit-2025-04-28-02.jpg" alt="P25 radio go-kit wiring and speaker context, 2025-04-28" width="48%">
-
-<img src="assets/p25-radio-go-kit-2025-04-28-03.jpg" alt="P25 radio go-kit connected bench context, 2025-04-28" width="48%"> <img src="assets/p25-radio-go-kit-2025-04-28-04.jpg" alt="P25 radio go-kit assembled context, 2025-04-28" width="48%">
-
 <img src="assets/p25-mobile-radio-stubby-antenna-2024-09-19-01.jpg" alt="P25 mobile radio with stubby antenna context, 2024-09-19" width="48%"> <img src="assets/p25-mobile-radio-bench-context-2024-10-27-01.jpg" alt="P25 mobile radio bench context, 2024-10-27" width="48%">
 
 ### Reticulum Proof Of Concept
@@ -117,8 +111,8 @@ The claim is narrower: this is a documented research and test effort around P25 
 
 ## Current Evidence
 
-- Active media assets: 15
-- JPG stills: 9
+- Active media assets: 11
+- JPG stills: 5
 - Animated GIFs: 6
 - Source posture: private review assets only; publication requires redaction and fit review.
 
