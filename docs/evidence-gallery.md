@@ -22,6 +22,13 @@ Media rule: still evidence is stored as JPG; verified video evidence is stored a
 
 <img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 09 28 01" width="48%">
 
+## Motorola Astro Selected Video Evidence
+
+- Source: local Telegram ChatExport video review, selected by Josh for repo incorporation.
+- Redaction note: private review only until radio display details are checked.
+
+<img src="../assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="motorola astro selected video evidence 2024 09 16" width="48%"> <img src="../assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="motorola astro mobile radio front panel workflow 2024 09 24" width="48%">
+
 ## Stack Of Handheld Radios Transceivers
 
 - Source: https://www.instagram.com/p/C9dca53RoyyWInXzCY5q7ZXPlSgQDnr41BQBkI0/

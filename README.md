@@ -58,6 +58,10 @@ This supports a resume claim around practical protocol research, Linux/networkin
 
 <img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-10-01" width="48%"> <img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-09-30" width="48%">
 
+The selected video evidence below adds radio-front-panel workflow context from the local ChatExport review. It is useful for private portfolio review because it shows hands-on Motorola Astro/mobile-radio configuration activity, but it still requires redaction review before any public release.
+
+<img src="assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration evidence, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow evidence, 2024-09-24" width="48%">
+
 ### Reticulum Proof Of Concept
 
 Reticulum was used because it is transport-layer agnostic and decentralized: it can operate above whatever link can move packets, rather than requiring a normal LAN-like environment. In this project, Reticulum was tested as a basic messaging proof of concept over an already established IP-over-P25 link.
@@ -105,9 +109,9 @@ The claim is narrower: this is a documented research and test effort around P25 
 
 ## Current Evidence
 
-- Active media assets: 7
+- Active media assets: 9
 - JPG stills: 3
-- Animated GIFs: 4
+- Animated GIFs: 6
 - Source posture: private review assets only; publication requires redaction and fit review.
 
 See [docs/evidence-gallery.md](docs/evidence-gallery.md) for the private review gallery and [evidence-manifest.md](evidence-manifest.md) for the current asset list.
