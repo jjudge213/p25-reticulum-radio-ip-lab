@@ -1,6 +1,6 @@
 # P25 Reticulum Radio IP Lab
 
-Private portfolio case study. Do not publish until evidence review, redaction, and claim review are complete.
+Private project case study. Do not publish until redaction and technical review are complete.
 
 ## Purpose
 
@@ -12,17 +12,17 @@ The project was motivated by the rise of MANET-style tactical radio equipment an
 
 > What radio systems are available to civilians that support encrypted digital modulation and IP networking well enough to act as a transport layer for TAK-style field operations?
 
-The portfolio goal is to show practical tactical-radio research: reading standards, comparing vendor behavior, testing radio-to-terminal workflows, and documenting where constrained IP networking is realistic versus where the radio system architecture imposes hard limits.
+The goal is to document the practical side of the work: reading the standards, comparing vendor behavior, wiring radios into Linux networking workflows, and separating workable constrained-IP paths from places where the radio architecture gets in the way.
 
 ## Current Findings
 
-| Area | Finding | Portfolio Value |
+| Area | Finding | Why It Matters |
 |---|---|---|
-| P25 CAI research | Project centers on P25 CAI behavior and vendor implementation differences | Shows standards-driven research and protocol literacy |
-| Motorola Astro testing | IP networking between radios appears possible with manual routing configuration on connected terminals | Shows hands-on radio-to-computer networking investigation |
-| Harris XG-100M testing | IP networking path appears to require trunked-system implementation | Shows vendor comparison and honest negative/constraint finding |
-| EFJohnson 5100/5300 | Planned future comparison target | Shows a structured multi-vendor test plan |
-| Reticulum over IP-over-P25 | Used as a basic proof-of-concept over an established IP-over-P25 link | Shows transport-layer-agnostic messaging over constrained radio-linked IP |
+| P25 CAI research | Project centers on P25 CAI behavior and vendor implementation differences | Keeps the work grounded in how the radios actually implement data features |
+| Motorola Astro testing | IP networking between radios appears possible with manual routing configuration on connected terminals | Gives the project a real radio-to-computer networking path to test against |
+| Harris XG-100M testing | IP networking path appears to require trunked-system implementation | Adds a useful comparison point instead of assuming all P25 vendors behave alike |
+| EFJohnson 5100/5300 | Planned future comparison target | Extends the project into a broader multi-vendor test set |
+| Reticulum over IP-over-P25 | Tested over an established IP-over-P25 link | Exercises decentralized messaging above a constrained radio-linked IP path |
 
 ## Problem
 
@@ -43,40 +43,40 @@ This repo captures that investigation without presenting it as a finished operat
 
 1. Start with the P25 CAI standard and public technical references.
 2. Compare brand behavior rather than assuming all P25 radios expose the same data features.
-3. Test Motorola Astro-series workflows first because current evidence supports radio-to-laptop terminal work.
+3. Test Motorola Astro-series workflows first because that is where the radio-to-laptop path is currently most developed.
 4. Use Harris XG-100M testing as a comparison point for trunked-system dependency.
-5. Use Reticulum as a transport-layer-agnostic, decentralized messaging proof of concept over an established IP-over-P25 link.
-6. Preserve screenshots and short evidence clips for private review, then redact before any public release.
+5. Use Reticulum as a transport-layer-agnostic, decentralized messaging test over an established IP-over-P25 link.
+6. Keep screenshots and clips private until anything sensitive is redacted.
 
-## Evidence Structure
+## Project Sections
 
 ### Motorola Astro / Radio-To-Terminal Workflow
 
-The strongest current evidence supports Motorola Astro-series P25 experimentation with connected terminals. Current testing indicates that IP networking between radios is possible when connected computers are configured with manual routing.
+The Motorola Astro work is the strongest radio-to-terminal path in the project so far. Current testing indicates that IP networking between radios is possible when connected computers are configured with manual routing.
 
-This supports a resume claim around practical protocol research, Linux/networking configuration, and tactical-radio experimentation.
+This is the core hands-on workflow: P25 radios connected to terminals, Linux networking configured manually, and the link treated as a constrained transport rather than a normal LAN.
 
-<img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-10-01" width="48%"> <img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow evidence, 2022-09-30" width="48%">
+<img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow, 2022-10-01" width="48%"> <img src="assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="Motorola Astro P25 radio-to-laptop terminal workflow, 2022-09-30" width="48%">
 
-The selected video evidence below adds radio-front-panel workflow context from the local ChatExport review. It is useful for private portfolio review because it shows hands-on Motorola Astro/mobile-radio configuration activity, but it still requires redaction review before any public release.
+The front-panel clips add context around the Motorola Astro/mobile-radio configuration work. They stay private until displays and surrounding details are checked for anything that should not be published.
 
-<img src="assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration evidence, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow evidence, 2024-09-24" width="48%">
+<img src="assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration workflow, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow, 2024-09-24" width="48%">
 
 <img src="assets/p25-mobile-radio-stubby-antenna-2024-09-19-01.jpg" alt="P25 mobile radio with stubby antenna context, 2024-09-19" width="48%"> <img src="assets/p25-mobile-radio-bench-context-2024-10-27-01.jpg" alt="P25 mobile radio bench context, 2024-10-27" width="48%">
 
-### Reticulum Proof Of Concept
+### Reticulum Test
 
 Reticulum was used because it is transport-layer agnostic and decentralized: it can operate above whatever link can move packets, rather than requiring a normal LAN-like environment. In this project, Reticulum was tested as a basic messaging proof of concept over an already established IP-over-P25 link.
 
-That distinction matters. The claim is not that Reticulum directly implements P25 CAI or that a production Reticulum-over-P25 network is complete. The claim is that once an IP path over P25 existed, Reticulum provided a useful application-layer test of decentralized messaging behavior over that constrained transport.
+That distinction matters. Reticulum is not acting as a native P25 CAI implementation here, and this is not a finished field network. It is an application-layer test: once an IP path existed over P25, Reticulum gave a practical way to test decentralized messaging behavior over that constrained transport.
 
-<img src="assets/p25-ip-reticulum-2025-03-28-01.gif" alt="Reticulum messaging proof of concept over an established IP-over-P25 link" width="48%">
+<img src="assets/p25-ip-reticulum-2025-03-28-01.gif" alt="Reticulum messaging over an established IP-over-P25 link" width="48%">
 
 ### Harris XG-100M Comparison
 
 Harris XG-100M testing produced an important constraint: the IP networking path appears to require trunked-system implementation rather than a simple direct radio-to-radio terminal network.
 
-This is useful evidence because it shows disciplined testing and willingness to document negative results instead of forcing a generic "P25 IP works" claim.
+That result is useful because it keeps the project honest. The point is not to say "P25 IP works" as a blanket statement; vendor, model, and system architecture matter.
 
 ### Future EFJohnson Comparison
 
@@ -84,20 +84,20 @@ Future work should include EFJohnson 5100/5300 testing to compare another major 
 
 <img src="assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="Handheld radio stack for future EFJohnson comparison work" width="48%">
 
-## What This Demonstrates
+## What This Covers
 
 - P25 CAI standards research.
 - Multi-vendor radio behavior comparison.
 - Motorola Astro-series P25 familiarity.
 - Harris XG-100M constraint testing.
-- Reticulum proof-of-concept testing over an established IP-over-P25 link.
+- Reticulum messaging tested over an established IP-over-P25 link.
 - Linux terminal networking and manual routing awareness.
 - Constrained-networking judgment: bandwidth, routing, infrastructure dependency, and operational limits.
-- Evidence discipline for sensitive communications topics.
+- Careful handling of sensitive communications details.
 
 ## What This Is Not
 
-This repository does not claim:
+This repository is not presenting:
 
 - a production P25 IP deployment
 - trunked-system administration access
@@ -107,9 +107,9 @@ This repository does not claim:
 - a completed TAK-over-P25 transport layer
 - universal P25 vendor behavior
 
-The claim is narrower: this is a documented research and test effort around P25 CAI implementation differences and constrained radio-linked IP workflows.
+The scope is narrower: this is a documented research and test effort around P25 CAI implementation differences and constrained radio-linked IP workflows.
 
-## Current Evidence
+## Current Media
 
 - Active media assets: 11
 - JPG stills: 5
