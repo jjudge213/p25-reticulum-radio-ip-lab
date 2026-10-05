@@ -60,12 +60,11 @@ This repo captures that investigation without presenting it as a finished operat
 
 ```mermaid
 flowchart LR
-    laptopA[Linux terminal A<br/>placeholder IP/routing] --> radioA[Motorola Astro radio A]
-    radioA <--> p25[P25 CAI radio link<br/>sanitized settings]
-    p25 <--> radioB[Motorola Astro radio B]
-    radioB --> laptopB[Linux terminal B<br/>placeholder IP/routing]
-    laptopA -. application-layer test .-> reticulum[Reticulum messaging]
-    reticulum -. over established IP path .-> laptopB
+    laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
+    radioA --> link["P25 CAI radio link - sanitized settings"]
+    link --> radioB["Motorola Astro radio B"]
+    radioB --> laptopB["Linux terminal B - placeholder routing"]
+    laptopA -. "Reticulum messaging over established IP path" .-> laptopB
 ```
 
 ## Project Sections
