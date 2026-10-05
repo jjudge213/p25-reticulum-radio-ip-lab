@@ -1,6 +1,6 @@
 # P25 Reticulum Radio IP Lab
 
-Private project case study. Do not publish until redaction and technical review are complete.
+Public-safe project case study for P25 radio-linked IP experimentation, constrained networking, and tactical-radio integration research.
 
 ## Purpose
 
@@ -13,6 +13,14 @@ The project was motivated by the rise of MANET-style tactical radio equipment an
 > What radio systems are available to civilians that support encrypted digital modulation and IP networking well enough to act as a transport layer for TAK-style field operations?
 
 The goal is to document the practical side of the work: reading the standards, comparing vendor behavior, wiring radios into Linux networking workflows, and separating workable constrained-IP paths from places where the radio architecture gets in the way.
+
+## Key Results
+
+- Built a Motorola Astro-centered test path for radio-to-terminal IP experimentation.
+- Configured connected Linux terminals with manual routing for constrained radio-linked IP testing.
+- Ran Reticulum messaging above an established IP-over-P25 path to test application-layer behavior over a non-LAN transport.
+- Compared Motorola Astro behavior against Harris XG-100M constraints instead of assuming all P25 vendors expose the same data features.
+- Kept publishable documentation separated from sensitive details such as frequencies, IDs, codeplugs, and encryption material.
 
 ## Current Findings
 
@@ -47,6 +55,18 @@ This repo captures that investigation without presenting it as a finished operat
 4. Use Harris XG-100M testing as a comparison point for trunked-system dependency.
 5. Use Reticulum as a transport-layer-agnostic, decentralized messaging test over an established IP-over-P25 link.
 6. Keep screenshots and clips private until anything sensitive is redacted.
+
+## Sanitized Test Topology
+
+```mermaid
+flowchart LR
+    laptopA[Linux terminal A<br/>placeholder IP/routing] --> radioA[Motorola Astro radio A]
+    radioA <--> p25[P25 CAI radio link<br/>sanitized settings]
+    p25 <--> radioB[Motorola Astro radio B]
+    radioB --> laptopB[Linux terminal B<br/>placeholder IP/routing]
+    laptopA -. application-layer test .-> reticulum[Reticulum messaging]
+    reticulum -. over established IP path .-> laptopB
+```
 
 ## Project Sections
 
@@ -114,9 +134,9 @@ The scope is narrower: this is a documented research and test effort around P25 
 - Active media assets: 11
 - JPG stills: 5
 - Animated GIFs: 6
-- Source posture: private review assets only; publication requires redaction and fit review.
+- Source posture: public-safe derivatives only; source material and sensitive details remain out of scope.
 
-See [docs/evidence-gallery.md](docs/evidence-gallery.md) for the private review gallery and [evidence-manifest.md](evidence-manifest.md) for the current asset list.
+See [docs/evidence-gallery.md](docs/evidence-gallery.md) for the media gallery and [evidence-manifest.md](evidence-manifest.md) for the current asset list.
 
 ## Sensitive Material Boundary
 
@@ -135,7 +155,6 @@ Public diagrams should use placeholders and recreated examples only.
 ## Next Work
 
 - Write a short P25 CAI research note summarizing standard-level findings in public-safe terms.
-- Add a sanitized Motorola Astro test topology diagram showing radios, terminals, and manual routing at a high level.
 - Add a sanitized Harris XG-100M comparison note explaining the trunked-system dependency finding.
 - Build an EFJohnson 5100/5300 test plan before adding that vendor to the comparison.
 - Add a "terminal routing checklist" using placeholder addresses only.
