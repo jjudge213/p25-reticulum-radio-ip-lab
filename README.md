@@ -95,6 +95,8 @@ The front-panel clips add context around the Motorola Astro/mobile-radio configu
 
 ### Reticulum Test
 
+*Reticulum is a cryptography-based networking stack for building local or wide-area networks over available transports, including very low-bandwidth or high-latency links; in this project it is treated as an application-layer messaging test running above an already established IP-over-P25 path.*
+
 Reticulum was used because it is transport-layer agnostic and decentralized: it can operate above whatever link can move packets, rather than requiring a normal LAN-like environment. In this project, Reticulum was tested as a basic messaging proof of concept over an already established IP-over-P25 link.
 
 That distinction matters. Reticulum is not acting as a native P25 CAI implementation here, and this is not a finished field network. It is an application-layer test: once an IP path existed over P25, Reticulum gave a practical way to test decentralized messaging behavior over that constrained transport.
