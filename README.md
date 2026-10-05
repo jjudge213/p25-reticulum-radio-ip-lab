@@ -6,6 +6,8 @@ Public-safe project case study for P25 radio-linked IP experimentation, constrai
 
 This repository documents an investigation into the APCO P25 Common Air Interface (CAI), how P25 data/IP behavior is implemented across radio brands, and what it takes to connect radio equipment to laptop/Linux networking workflows.
 
+*P25 CAI is the standardized over-the-air radio interface within the Project 25 / TIA-102 family; it defines how compliant subscriber radios and infrastructure exchange digital voice and data over the RF link, separate from higher-level network applications.*
+
 The current focus is Motorola Astro-series P25 behavior. Harris XG-100M testing is included as a comparison point, and EFJohnson 5100/5300 testing is planned future work.
 
 The project was motivated by the rise of MANET-style tactical radio equipment and the expanding use of the TAK ecosystem in DoD/DoW fielding. The underlying question was:
