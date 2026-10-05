@@ -16,6 +16,17 @@ The project was motivated by the rise of MANET-style tactical radio equipment an
 
 The goal is to document the practical side of the work: reading the standards, comparing vendor behavior, wiring radios into Linux networking workflows, and separating workable constrained-IP paths from places where the radio architecture gets in the way.
 
+## Sanitized Test Topology
+
+```mermaid
+flowchart LR
+    laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
+    radioA --> link["P25 CAI radio link - sanitized settings"]
+    link --> radioB["Motorola Astro radio B"]
+    radioB --> laptopB["Linux terminal B - placeholder routing"]
+    laptopA -. "Reticulum messaging over established IP path" .-> laptopB
+```
+
 ## Key Results
 
 - Built a Motorola Astro-centered test path for radio-to-terminal IP experimentation.
@@ -65,17 +76,6 @@ This repo captures that investigation without presenting it as a finished operat
 4. Use Harris XG-100M testing as a comparison point for trunked-system dependency.
 5. Use Reticulum as a transport-layer-agnostic, decentralized messaging test over an established IP-over-P25 link.
 6. Keep screenshots and clips private until anything sensitive is redacted.
-
-## Sanitized Test Topology
-
-```mermaid
-flowchart LR
-    laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
-    radioA --> link["P25 CAI radio link - sanitized settings"]
-    link --> radioB["Motorola Astro radio B"]
-    radioB --> laptopB["Linux terminal B - placeholder routing"]
-    laptopA -. "Reticulum messaging over established IP path" .-> laptopB
-```
 
 ## Project Sections
 
