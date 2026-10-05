@@ -89,7 +89,7 @@ This is the core hands-on workflow: P25 radios connected to terminals, Linux net
 
 The front-panel clips add context around the Motorola Astro/mobile-radio configuration work. They stay private until displays and surrounding details are checked for anything that should not be published.
 
-<img src="assets/p25-motorola-aes-test-digital-radio-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration workflow, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow, 2024-09-24" width="48%">
+<img src="assets/p25-motorola-digital-radio-workflow-2024-09-16-01.gif" alt="Motorola Astro digital radio configuration workflow, 2024-09-16" width="48%"> <img src="assets/p25-mobile-radio-front-panel-workflow-2024-09-24-01.gif" alt="Motorola Astro mobile radio front-panel workflow, 2024-09-24" width="48%">
 
 <img src="assets/p25-mobile-radio-stubby-antenna-2024-09-19-01.jpg" alt="P25 mobile radio with stubby antenna context, 2024-09-19" width="48%"> <img src="assets/p25-mobile-radio-bench-context-2024-10-27-01.jpg" alt="P25 mobile radio bench context, 2024-10-27" width="48%">
 

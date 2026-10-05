@@ -1,6 +1,6 @@
 # Sanitization Notes
 
-Private review baseline.
+Public-readiness baseline.
 
 - Review all visible screens, maps, callsigns, usernames, serial numbers, license plates, and location clues before public release.
 - GIFs are review derivatives generated from local source MP4s; source MP4s stay in the local archive.
