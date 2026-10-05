@@ -2,8 +2,6 @@
 
 Public-safe project case study for P25 radio-linked IP experimentation, constrained networking, and tactical-radio integration research.
 
-## Sanitized Test Topology
-
 ```mermaid
 flowchart LR
     laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
