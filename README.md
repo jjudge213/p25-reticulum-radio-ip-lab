@@ -2,6 +2,17 @@
 
 Public-safe project case study for P25 radio-linked IP experimentation, constrained networking, and tactical-radio integration research.
 
+## Sanitized Test Topology
+
+```mermaid
+flowchart LR
+    laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
+    radioA --> link["P25 CAI radio link - sanitized settings"]
+    link --> radioB["Motorola Astro radio B"]
+    radioB --> laptopB["Linux terminal B - placeholder routing"]
+    laptopA -. "Reticulum messaging over established IP path" .-> laptopB
+```
+
 ## Purpose
 
 This repository documents an investigation into the APCO P25 Common Air Interface (CAI), how P25 data/IP behavior is implemented across radio brands, and what it takes to connect radio equipment to laptop/Linux networking workflows.
@@ -15,17 +26,6 @@ The project was motivated by the rise of MANET-style tactical radio equipment an
 > What radio systems are available to civilians that support encrypted digital modulation and IP networking well enough to act as a transport layer for TAK-style field operations?
 
 The goal is to document the practical side of the work: reading the standards, comparing vendor behavior, wiring radios into Linux networking workflows, and separating workable constrained-IP paths from places where the radio architecture gets in the way.
-
-## Sanitized Test Topology
-
-```mermaid
-flowchart LR
-    laptopA["Linux terminal A - placeholder routing"] --> radioA["Motorola Astro radio A"]
-    radioA --> link["P25 CAI radio link - sanitized settings"]
-    link --> radioB["Motorola Astro radio B"]
-    radioB --> laptopB["Linux terminal B - placeholder routing"]
-    laptopA -. "Reticulum messaging over established IP path" .-> laptopB
-```
 
 ## Key Results
 
