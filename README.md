@@ -101,7 +101,7 @@ Reticulum was used because it is transport-layer agnostic and decentralized: it 
 
 That distinction matters. Reticulum is not acting as a native P25 CAI implementation here, and this is not a finished field network. It is an application-layer test: once an IP path existed over P25, Reticulum gave a practical way to test decentralized messaging behavior over that constrained transport.
 
-<img src="assets/p25-ip-reticulum-2025-03-28-01.gif" alt="Reticulum messaging over an established IP-over-P25 link" width="48%">
+<img src="assets/p25-ip-reticulum-2025-03-28-01.gif" alt="Reticulum messaging over an established IP-over-P25 link" width="75%">
 
 ### Harris XG-100M Comparison
 
@@ -113,7 +113,7 @@ That result is useful because it keeps the project honest. The point is not to s
 
 Future work should include EFJohnson 5100/5300 testing to compare another major P25 vendor family against the Motorola and Harris findings.
 
-<img src="assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="Handheld radio stack for future EFJohnson comparison work" width="48%">
+<img src="assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="Handheld radio stack for future EFJohnson comparison work" width="75%">
 
 ## What This Covers
 

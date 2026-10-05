@@ -8,19 +8,19 @@ Media rule: still evidence is stored as JPG; verified video evidence is stored a
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 10 01 01" width="48%">
+<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-10-01-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 10 01 01" width="75%">
 
 ## P25 Radio Laptop Terminal Evidence Missed By Caption
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 09 30 01" width="48%">
+<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-30-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 09 30 01" width="75%">
 
 ## P25 Radio Laptop Terminal Evidence Missed By Caption
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 09 28 01" width="48%">
+<img src="../assets/p25-radio-laptop-terminal-evidence-missed-by-caption-2022-09-28-01.gif" alt="p25 radio laptop terminal evidence missed by caption 2022 09 28 01" width="75%">
 
 ## Motorola Astro Selected Video Evidence
 
@@ -40,22 +40,22 @@ Media rule: still evidence is stored as JPG; verified video evidence is stored a
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="stack of handheld radios transceivers 2024 07 15 01" width="48%">
+<img src="../assets/stack-of-handheld-radios-transceivers-2024-07-15-01.jpg" alt="stack of handheld radios transceivers 2024 07 15 01" width="75%">
 
 ## P25 Ip Reticulum
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/p25-ip-reticulum-2025-03-28-01.gif" alt="p25 ip reticulum 2025 03 28 01" width="48%">
+<img src="../assets/p25-ip-reticulum-2025-03-28-01.gif" alt="p25 ip reticulum 2025 03 28 01" width="75%">
 
 ## Xts5000 Active Display
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/xts5000-active-display-2021-04-24-01.jpg" alt="xts5000 active display 2021 04 24 01" width="48%">
+<img src="../assets/xts5000-active-display-2021-04-24-01.jpg" alt="xts5000 active display 2021 04 24 01" width="75%">
 
 ## Xts5000 Hardware
 
 - Source: Private source archive; public-safe derivative
 
-<img src="../assets/xts5000-hardware-2021-03-23-01.jpg" alt="xts5000 hardware 2021 03 23 01" width="48%">
+<img src="../assets/xts5000-hardware-2021-03-23-01.jpg" alt="xts5000 hardware 2021 03 23 01" width="75%">
