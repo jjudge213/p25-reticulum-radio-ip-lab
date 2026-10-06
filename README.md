@@ -35,13 +35,9 @@ The goal is to document the practical side of the work: reading the standards, c
 
 ## Project Outcomes
 
-| Area | Status | Public-safe takeaway |
-|---|---|---|
-| Configured | Documented at a high level | Linux terminal routing and radio-to-terminal workflow are described without publishing frequencies, IDs, codeplugs, keys, or private addressing. |
-| Fabricated | Supporting work only | Physical radio/interface work is covered in companion repos; this repo focuses on P25/IP behavior and constrained networking. |
-| Tested | Documented | Reticulum was exercised above an established IP-over-P25 path as an application-layer messaging test. |
-| Constraint found | Documented | Harris XG-100M IP behavior appears more dependent on trunked-system implementation than direct Motorola Astro workflows. |
-| Planned next work | Open | Add EFJohnson comparison testing and cleaner outcome notes when public-safe screenshots or logs can be published. |
+This project shows the systems-research side of the portfolio: P25 CAI study, vendor behavior comparison, Linux terminal routing concepts, and Reticulum messaging above an established IP-over-P25 path. It is written to make the practical constraint clear: P25 data behavior is not universal across vendors or architectures.
+
+The current public result is a bounded comparison rather than a finished field network. Motorola Astro workflows appear to offer the stronger direct radio-to-terminal path, while Harris XG-100M testing points toward trunked-system dependency for the IP behavior being investigated. EFJohnson comparison work remains the next useful public step.
 
 ## Resume Bullets
 
