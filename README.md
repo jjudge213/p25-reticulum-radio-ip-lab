@@ -13,49 +13,31 @@ flowchart LR
 
 ## Purpose
 
-This repository documents an investigation into the APCO P25 Common Air Interface (CAI), how P25 data/IP behavior is implemented across radio brands, and what it takes to connect radio equipment to laptop/Linux networking workflows.
+Public-safe investigation into P25 CAI behavior, vendor implementation differences, and constrained IP networking over radio-linked paths. The repo compares Motorola Astro and Harris XG-100M behavior, then uses Reticulum as an application-layer messaging test above an established IP-over-P25 path.
 
 *P25 CAI is the standardized over-the-air radio interface within the Project 25 / TIA-102 family; it defines how compliant subscriber radios and infrastructure exchange digital voice and data over the RF link, separate from higher-level network applications.*
 
-The current focus is Motorola Astro-series P25 behavior. Harris XG-100M testing is included as a comparison point, and EFJohnson 5100/5300 testing is planned future work.
-
-The project was motivated by the rise of MANET-style tactical radio equipment and the expanding use of the TAK ecosystem in DoD/DoW fielding. The underlying question was:
-
-> What radio systems are available to civilians that support encrypted digital modulation and IP networking well enough to act as a transport layer for TAK-style field operations?
-
-The goal is to document the practical side of the work: reading the standards, comparing vendor behavior, wiring radios into Linux networking workflows, and separating workable constrained-IP paths from places where the radio architecture gets in the way.
-
 ## Key Results
 
-- Built a Motorola Astro-centered test path for radio-to-terminal IP experimentation.
-- Configured connected Linux terminals with manual routing for constrained radio-linked IP testing.
-- Ran Reticulum messaging above an established IP-over-P25 path to test application-layer behavior over a non-LAN transport.
-- Compared Motorola Astro behavior against Harris XG-100M constraints instead of assuming all P25 vendors expose the same data features.
-- Kept publishable documentation separated from sensitive details such as frequencies, IDs, codeplugs, and encryption material.
+- Built a Motorola Astro-centered path for radio-to-terminal IP experimentation.
+- Used Linux terminal routing concepts for constrained radio-linked IP testing.
+- Tested Reticulum messaging above an established IP-over-P25 path.
+- Documented Harris XG-100M trunked-system dependency as a useful constraint.
+- Excluded frequencies, IDs, codeplugs, keys, and private addressing from the public repo.
 
 ## Project Outcomes
 
-This project shows the systems-research side of the portfolio: P25 CAI study, vendor behavior comparison, Linux terminal routing concepts, and Reticulum messaging above an established IP-over-P25 path. It is written to make the practical constraint clear: P25 data behavior is not universal across vendors or architectures.
-
-The current public result is a bounded comparison rather than a finished field network. Motorola Astro workflows appear to offer the stronger direct radio-to-terminal path, while Harris XG-100M testing points toward trunked-system dependency for the IP behavior being investigated. EFJohnson comparison work remains the next useful public step.
+The repo makes the main lesson easy to see: P25 data behavior is not universal across vendors or architectures. Motorola Astro workflows appear to be the stronger direct radio-to-terminal path so far; Harris XG-100M testing points toward trunked-system dependency for the IP behavior being investigated. EFJohnson comparison remains the next useful public step.
 
 ## Resume Bullets
 
-- Researched APCO P25 CAI behavior and vendor implementation differences across Motorola Astro and Harris XG-100M radio platforms.
-- Configured Linux terminal networking and manual routing concepts for constrained radio-linked IP testing over P25-oriented workflows.
-- Tested Reticulum messaging over an established IP-over-P25 path to evaluate application-layer behavior on a constrained non-LAN transport.
-- Documented Harris XG-100M IP-networking constraints, including apparent trunked-system dependency compared with direct Motorola Astro workflows.
-- Produced public-safe diagrams and documentation that preserve technical value while excluding frequencies, radio IDs, codeplugs, key material, and private routing details.
+- Researched APCO P25 CAI behavior and vendor implementation differences across Motorola Astro and Harris XG-100M platforms.
+- Tested Reticulum messaging over an established IP-over-P25 path to evaluate application-layer behavior on a constrained transport.
+- Documented vendor constraints and public-safe architecture while excluding frequencies, radio IDs, codeplugs, key material, and private routing details.
 
 ## Current Findings
 
-| Area | Finding | Why It Matters |
-|---|---|---|
-| P25 CAI research | Project centers on P25 CAI behavior and vendor implementation differences | Keeps the work grounded in how the radios actually implement data features |
-| Motorola Astro testing | IP networking between radios appears possible with manual routing configuration on connected terminals | Gives the project a real radio-to-computer networking path to test against |
-| Harris XG-100M testing | IP networking path appears to require trunked-system implementation | Adds a useful comparison point instead of assuming all P25 vendors behave alike |
-| EFJohnson 5100/5300 | Planned future comparison target | Extends the project into a broader multi-vendor test set |
-| Reticulum over IP-over-P25 | Tested over an established IP-over-P25 link | Exercises decentralized messaging above a constrained radio-linked IP path |
+The strongest path so far is Motorola Astro radio-to-terminal IP experimentation, where manual routing on connected Linux terminals gives the project a real constrained-networking workflow to test. Harris XG-100M behavior appears more dependent on trunked-system support for the IP path being investigated, which makes it a useful contrast rather than a failed duplicate. EFJohnson 5100/5300 remains the next comparison target, and Reticulum is treated as an application-layer test above an already established IP-over-P25 path.
 
 ## Problem
 
@@ -172,7 +154,7 @@ Public diagrams should use placeholders and recreated examples only.
 - Write a short P25 CAI research note summarizing standard-level findings in public-safe terms.
 - Add a sanitized Harris XG-100M comparison note explaining the trunked-system dependency finding.
 - Build an EFJohnson 5100/5300 test plan before adding that vendor to the comparison.
-- Add a "terminal routing checklist" using placeholder addresses only.
+- Add a short terminal-routing note using placeholder addresses only.
 - Review every GIF/still for visible radio IDs, frequencies, serials, terminal hostnames, paths, and private network details.
 
 ## Review Docs
