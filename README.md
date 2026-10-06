@@ -38,7 +38,9 @@ The repo makes the main lesson easy to see: P25 data behavior is not universal a
 
 ## Current Findings
 
-The strongest path so far is Motorola Astro radio-to-terminal IP experimentation. A Motorola XTS5000 and XTS2500 were configured through multiple terminal-data codeplug hypotheses, then connected to Linux terminals over PPP using standard programming serial cables. IGMP ping and additional ping testing were used to verify Linux-to-radio and terminal-to-terminal reachability, and custom routing proved necessary: each Linux terminal had to use its connected radio as the default gateway. Harris XG-100M configuration software made clear that the terminal-data behavior being investigated depends on a trunked P25 network, making Harris a useful constraint comparison. EFJohnson 5100/5300 remains the next comparison target once the required accessory cable for physical serial PPP access is obtained or fabricated.
+The strongest path so far is Motorola Astro radio-to-terminal IP experimentation. A Motorola XTS5000 and XTS2500 were configured through multiple terminal-data codeplug hypotheses, then connected to Linux terminals over PPP using standard programming serial cables. IGMP ping and additional ping testing verified Linux-to-radio and terminal-to-terminal reachability, while custom routing proved necessary: each Linux terminal had to use its connected radio as the default gateway.
+
+The comparison work is equally important. Harris XG-100M configuration software showed that the terminal-data behavior being investigated depends on a trunked P25 network, making Harris a useful constraint case. EFJohnson 5100/5300 remains the next comparison target once the required accessory cable for physical serial PPP access is obtained or fabricated.
 
 ## Problem
 
