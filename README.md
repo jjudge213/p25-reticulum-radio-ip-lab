@@ -29,10 +29,6 @@ Public-safe investigation into P25 CAI behavior, vendor implementation differenc
 
 The repo makes the main lesson easy to see: P25 data behavior is not universal across vendors or architectures. Motorola Astro workflows appear to be the stronger direct radio-to-terminal path so far; Harris XG-100M testing points toward trunked-system dependency for the IP behavior being investigated. EFJohnson comparison remains the next useful public step.
 
-## Methodology And Obstacles
-
-The project started with standards-level research, then moved into vendor comparison and terminal-side routing tests. The working method was to prove one narrow link at a time: radio behavior, connected-terminal networking, then application-layer messaging above the established path. The main obstacle is that P25 data capability depends heavily on vendor implementation and system architecture, so the repo avoids broad claims and keeps the Harris result framed as a useful constraint rather than a failed copy of the Motorola workflow.
-
 ## Resume Bullets
 
 - Researched APCO P25 CAI behavior and vendor implementation differences across Motorola Astro and Harris XG-100M platforms.
