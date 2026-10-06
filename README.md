@@ -33,6 +33,16 @@ The goal is to document the practical side of the work: reading the standards, c
 - Compared Motorola Astro behavior against Harris XG-100M constraints instead of assuming all P25 vendors expose the same data features.
 - Kept publishable documentation separated from sensitive details such as frequencies, IDs, codeplugs, and encryption material.
 
+## Project Outcomes
+
+| Area | Status | Public-safe takeaway |
+|---|---|---|
+| Configured | Documented at a high level | Linux terminal routing and radio-to-terminal workflow are described without publishing frequencies, IDs, codeplugs, keys, or private addressing. |
+| Fabricated | Supporting work only | Physical radio/interface work is covered in companion repos; this repo focuses on P25/IP behavior and constrained networking. |
+| Tested | Documented | Reticulum was exercised above an established IP-over-P25 path as an application-layer messaging test. |
+| Constraint found | Documented | Harris XG-100M IP behavior appears more dependent on trunked-system implementation than direct Motorola Astro workflows. |
+| Planned next work | Open | Add EFJohnson comparison testing and cleaner outcome notes when public-safe screenshots or logs can be published. |
+
 ## Resume Bullets
 
 - Researched APCO P25 CAI behavior and vendor implementation differences across Motorola Astro and Harris XG-100M radio platforms.
